@@ -5,72 +5,17 @@
 
 /* style for body of portfolio */
 body {
-  font-family: Arial;
-  margin: 0;
-  position: relative;
-  background-color: rgb(209, 209, 185);
+background-color: rgb(99, 161, 223);
 }
 
-/* style for header / nav bar */
-header, footer{
-  display: flex;
-  flex-wrap: wrap;
-}
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-/* flex box container for header */
 .header{
-  justify-content: space-between;
-  padding: 60px;
-  background: #266cae;
-  color: #fff;
+  outline: solid 5px orange;
+  border: 4px solid red
 }
-
-.headerTitle{
- background-color: crimson;
+.headertitle{
+  border: 4px dotted green;
 }
-
-.headerLinks{
-  display: flex;
-  background-color: plum;
-}
-
-.header h1{
-  font-size: 48px;
-}
-
-.header nav{
-  flex-direction: row;
-  font-size: 30px;;
-}
-
-.header nav ul li{
-  display: inline-block;
-  margin-left: 45px;
-}
-
-.aboutMe {
-background-color: yellowgreen;
-}
-
-.aboutMeHeader {
-  background-color: purple;
-}
-.aboutMeText{
-  background-color: black;
-  color: white;
-}
-
-.project-container {
-background-color: blue;
-}
-.project-header{
-  background-color: red;
-}
-.project-text{
-  background-color: black;
-  color: white;
+.headerlinks{
+  border: 4px dashed yellow;
 }
