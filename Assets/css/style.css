@@ -1,21 +1,28 @@
 * {
-  margin:0;
-  padding:0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* style for body of portfolio */
-body {
-background-color: rgb(99, 161, 223);
+body{
+background-color: rgb(226, 231, 237);
+margin: 0px;
+padding: 0px;
 }
 
+ul{
+  list-style: none;
+}
 
-.header{
-  outline: solid 5px orange;
-  border: 4px solid red
+a{
+  text-decoration: none;
 }
-.headertitle{
-  border: 4px dotted green;
-}
-.headerlinks{
-  border: 4px dashed yellow;
+
+section{
+  width: 100%;
+  height: 550px;
+  background-image: url("../photos/IMG-20180728-WA0013.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
