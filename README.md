@@ -1,39 +1,22 @@
 # Professional Portfolio
+------------------------------
+# User Story
+- AS AN employer
+- I WANT to view a potential employee's deployed portfolio of work samples
+- SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+# Acceptance Criteria
+- Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
 
-#### Created by:
-
--_**Darin Palombo**_
-
-## Technologies Used:
-
-- HTML!
-- CSS!!
-- JAVASCRIPT!
-- JQUERY!
-- BOOTSTRAP
-- NATIONAL PARK API'S
-- OPEN WEATHER API'S
-
-## Description:
-
-- _Here is a collection of all my public repo's! It is early in my development career and I am very excited to add to my Portfolio as I continue to grow and learn new and more advanced coding languages!_
-
-## Setup/Installation Requirements:
-
-- _N/A_
-
-## Known Bugs:
-
-- _N/A_
-
-## License:
-
-- _N/A_
-
-## Link to live page:
-
-- file:///C:/Users/dpl.....
-
-## Preview image of Portfolio:
-
-- ![Image Site](./assets/photos/_C__Users_dplb1_OneDrive_Desktop_Challenge2-Portfolio_Portfolio-1_Professional-Portfolio_index.html.png)
+- GIVEN I need to sample a potential employee's previous work
+- WHEN I load their portfolio
+- THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+- WHEN I click one of the links in the navigation
+- THEN the UI scrolls to the corresponding section
+- WHEN I click on the link to the section about their work
+- THEN the UI scrolls to a section with titled images of the developer's applications
+- WHEN I am presented with the developer's first application
+- THEN that application's image should be larger in size than the others
+- WHEN I click on the images of the applications
+- THEN I am taken to that deployed application
+- WHEN I resize the page or view the site on various screens and devices
+- THEN I am presented with a responsive layout that adapts to my viewport
